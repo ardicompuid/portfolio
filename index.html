@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Web Developer | Nama Lu</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f4f7f6; color: #333; line-height: 1.6; }
+        header { background: #2c3e50; color: #fff; padding: 40px 20px; text-align: center; }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        header p { font-size: 1.1rem; color: #bdc3c7; }
+        .container { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+        .section-title { text-align: center; margin-bottom: 30px; color: #2c3e50; position: relative; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-top: 5px solid #3498db; }
+        .card h3 { margin-bottom: 10px; color: #2c3e50; }
+        .tags { margin: 10px 0; }
+        .tag { background: #e0e0e0; font-size: 0.8rem; padding: 3px 8px; border-radius: 4px; margin-right: 5px; font-weight: bold; }
+        .tag.php { background: #777bb4; color: #fff; }
+        .tag.html { background: #e34f26; color: #fff; }
+        .tag.java { background: #5382a1; color: #fff; }
+        .tag.net { background: #27ae60; color: #fff; }
+        footer { text-align: center; padding: 20px; background: #2c3e50; color: #fff; margin-top: 40px; }
+        a.btn { display: inline-block; background: #3498db; color: white; padding: 8px 15px; text-align: center; border-radius: 4px; text-decoration: none; margin-top: 15px; font-size: 0.9rem; }
+        a.btn:hover { background: #2980b9; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Halo, Gua Ardi</h1>
+        <p>Junior Web Developer & IT Support | Menguasai HTML, PHP, Java, & Jaringan</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Proyek Yang Pernah Gua Bikin</h2>
+        
+        <div class="grid">
+            <!-- Proyek 1: PHP -->
+            <div class="card">
+                <h3>Aplikasi Kasir / Toko Online Sederhana</h3>
+                <div class="tags">
+                    <span class="tag php">PHP</span>
+                    <span class="tag html">HTML</span>
+                    <span class="tag">MySQL</span>
+                </div>
+                <p>Sistem manajemen stok barang dan hitung total belanjaan otomatis berbasis web dinamis.</p>
+                <a href="#" class="btn">Lihat Source Code</a>
+            </div>
+
+            <!-- Proyek 2: Java -->
+            <div class="card">
+                <h3>Sistem Logika / Aplikasi Desktop Mini</h3>
+                <div class="tags">
+                    <span class="tag java">Java</span>
+                </div>
+                <p>Aplikasi GUI berbasis Java untuk mengelola data absensi atau kalkulator scientific tugas kuliah.</p>
+                <a href="#" class="btn">Lihat Source Code</a>
+            </div>
+
+            <!-- Proyek 3: Networking/HTML -->
+            <div class="card">
+                <h3>Landing Page UMKM + Setup Hosting</h3>
+                <div class="tags">
+                    <span class="tag html">HTML</span>
+                    <span class="tag net">Networking</span>
+                </div>
+                <p>Pembuatan website profile usaha lokal, sekaligus optimasi kecepatan loading dan konfigurasi domain.</p>
+                <a href="#" class="btn">Lihat Live Demo</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Hubungi Gua: | </p>
+        <p style="font-size: 0.8rem; color: #bdc3c7; margin-top: 5px;"></p>
+    </footer>
+
+</body>
+</html>
